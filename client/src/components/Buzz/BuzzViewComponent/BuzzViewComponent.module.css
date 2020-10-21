@@ -1,0 +1,98 @@
+.BuzzViewComponent {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.ShowDate {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    color: black;
+    padding: 0  1rem;
+}
+.BuzzContentCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.BuzzContentHeader {
+    display:flex;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.BuzzCreatedBy {
+    color: grey;
+    padding-left: 0.5rem;
+}
+.BuzzCreatedOn {
+    color: grey;
+    padding-left: 0.5rem;
+}
+.BuzzCard {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+.BuzzImage {
+    height: auto;
+    width: 100%;
+}
+.BuzzMessage {
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 2px 3px 4px #ccc;
+}
+.StatusCard {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+.DeleteBtn {
+    background-color: crimson;
+    border: none;
+    outline: none;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+}
+.Like {
+    color: black;
+    cursor: pointer;
+    padding-right: 0.7rem;
+}
+.AfterLike {
+    color: #3B5998;
+}
+.Dislike {
+    color: black;
+    cursor: pointer;
+}
+.AfterDislike {
+    color: #ffeb3b;
+}
+
+
+@media(max-width : 768px){
+    .BuzzActivityCard {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+    .BuzzActivityImage {
+        height: auto;
+        width: 16rem;
+    }
+    .BuzzActivityMessage {
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+    }
+    .BuzzContentHeader {
+        flex-direction: column;
+    }
+}

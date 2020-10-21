@@ -1,0 +1,102 @@
+.ResolveComponent {
+    margin: 0rem 3rem;
+    margin-top: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.ResolveComponentTopBar {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+    justify-content: space-between;
+    align-items: center;
+}
+.ResolveComponentTopBar i {
+    color: grey;
+}
+.ResolveComponentHeader {
+    margin: 0rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.ResolveComponentTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+.TableHeading {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.TableBody {
+    width: auto;
+    text-align: center;
+}
+.TableData {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.SelectTable {
+    width: auto;
+    border: none;
+    background: none;
+    padding-right: 0.5rem;
+    outline: none;
+    cursor: pointer;
+}
+.SelectTable option {
+    color: black;
+}
+.Select {
+    border: none;
+    background: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: grey;
+    cursor: pointer;
+}
+.Select * {
+    background-color: lavender;
+    color: black;
+    margin: 0.4rem;
+}
+.Select::-ms-expand {
+    display: none;
+}
+.PaginationWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem;
+}
+.PaginationBtn {
+    border: 1px solid gray;
+    cursor: pointer;
+    background: white;
+    outline: none;
+    margin-left: 0.5rem;
+}
+.StatusOpen {
+    color: red;
+}
+.StatusInProgress {
+    color:blue;
+}
+.StatusResolved {
+    color: green;
+}
+
+@media(max-width:768px){
+    .TableWrapper{
+        overflow-x: auto;
+    }
+}

@@ -1,0 +1,53 @@
+.ProfileEditContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: white;
+    margin: 1rem;
+    padding: 0rem 1rem;
+    border-top: 2px solid blueviolet;
+}
+.DisplayHeading {
+    padding: 1rem;
+    color: teal;
+    text-align: center;
+    margin-top: 3.5rem;
+}
+.ProfileHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: thin solid #ccc;
+}
+.UserImage {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.ProfileValue {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    align-items: center;
+}
+.UpdateBtn {
+    background: #0067cd;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    
+}
+.ProfileFooter {
+    border-top: 1px solid #f4f4f4;
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Invalid {
+    color: red;
+}

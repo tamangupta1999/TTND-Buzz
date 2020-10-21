@@ -1,0 +1,26 @@
+.RecentBuzzComponent {
+    margin: 0rem 3rem;
+    margin-top: 1rem;
+    width: 90%;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.BuzzHeader {
+    margin: 0rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.BuzzHeader i {
+    color: grey;
+}
+
+@media(max-width:768px){
+    .RecentBuzzComponent{
+        width: 100%;
+        margin: 0rem;
+        margin-top: 1rem;
+    }
+}

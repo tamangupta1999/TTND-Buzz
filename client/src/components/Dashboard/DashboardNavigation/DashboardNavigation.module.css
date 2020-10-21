@@ -1,0 +1,29 @@
+.DashboardNavigation {
+    list-style: none;
+}
+.BottomNavbarWrapper {
+    display: flex;
+    margin-left: 2.5rem;
+    justify-content: space-between;
+}
+.CompanyName {
+    font-size: 0.7rem;
+    color: grey;
+    margin: 0;
+}
+.NavLink {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #4863A0;
+}
+
+@media(max-width:500px) {
+    .DashboardNavigation{
+        margin: 0%;
+        padding: 0%;
+    }
+    .BottomNavbarWrapper {
+        margin-top: 0.5rem;
+        margin-left: 0;
+    }
+}

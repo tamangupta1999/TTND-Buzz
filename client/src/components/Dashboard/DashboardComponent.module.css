@@ -1,0 +1,33 @@
+.RoadImage {
+    background: url('./../../assets/image/road.jpg') no-repeat center/cover;
+    margin-top: 10vh;
+    height: 40vh;
+    width: 100%;
+}
+.Overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 10vh;
+    height: 40vh;
+    width: 100%;
+}
+.DashboardHeader {
+    color: white;
+    margin-left: 12rem;
+    padding-top: 4.5rem;
+}
+.Main {
+    display: flex;
+    padding-top: 1.5rem;
+}
+@media(max-width:768px){
+    .Main {
+        flex-direction: column;
+        padding-top: 0rem;
+        margin: 0.5rem;
+        align-items: center;
+    }
+    .DashboardHeader {
+     margin-left: 5rem;
+     font-size: 1.5rem;
+    }
+}

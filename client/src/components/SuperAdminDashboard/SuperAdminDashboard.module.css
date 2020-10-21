@@ -1,0 +1,78 @@
+.BoxWrapper {
+    display: flex;
+}
+.SuperAdminHeading {
+    text-align: center;
+    padding: 0.7rem 0;
+    color: crimson;
+    margin: 0.1rem;
+}
+.TableWrapper {
+    margin-top: 5rem;
+    flex-basis: 60%;
+    background: #fff;
+    margin-left: 0.5rem;
+    height: 80vh;
+    overflow-y: scroll;
+    border-top: 2px solid slateblue;
+}
+.Table{
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.TableHead {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+}
+.TableData {
+    border: 1px solid #ccc;
+}
+.TableRow:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.ProfileImage {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.Select {
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.DepartmentWrapper {
+    flex-basis: 40%;
+    background: #fff;
+    margin: 0 0.5rem;
+    margin-top: 5rem;
+    border-top: 2px solid slateblue;
+    padding: 0 0.5rem;
+
+}
+.DepartmentHeading {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.DepartmentBtn {
+    background: #0067cd;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.Input {
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+.Invalid {
+    border: thin solid red;
+}

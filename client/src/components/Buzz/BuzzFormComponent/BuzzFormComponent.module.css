@@ -1,0 +1,65 @@
+.BuzzFormComponent {
+    margin: 0rem 3rem;
+    margin-top: 0.9rem;
+    width: 90%;
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: 2px 3px 4px #ccc;
+}
+.BuzzHeader {
+    margin: 0rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.BuzzHeader i {
+    color: grey;
+}
+.TextArea {
+    width:  99.5%;
+    height: 6rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+.TextArea:focus{
+    border: thin solid cornflowerblue;
+}
+.FormBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.SelectTag {
+    border: none;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    width: 5rem;
+    margin-right: 2rem;
+}
+.ImageLabel {
+    cursor: pointer;
+    color: grey;
+}
+
+.SubmitBtn {
+    border: none;
+    background: none;
+    color: orangered;
+    cursor: pointer;
+}
+.Dark {
+    color: black;
+}
+
+@media(max-width:768px){
+    .BuzzFormComponent{
+        width: 100%;
+        margin: 0rem;
+        margin-top: 1rem;
+    }
+}

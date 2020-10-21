@@ -1,0 +1,55 @@
+.CommentComponent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.CommentInput {
+    width: 90%;
+    border: none;
+    font-size: 0.9rem;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.CommentButton {
+    width: 90%;
+    margin-top: 1rem;
+    padding: 0.5rem 0rem;
+    cursor: pointer;
+    border: none;
+    background-color:#24a0ed ;
+    border-radius: 8px;
+    color: white;
+    font-weight: 900;
+}
+.Comments {
+    display: flex;
+    flex-direction: column;
+    border: thin solid grey;
+    box-shadow: 2px 3px 4px #ccc;
+    width: 86%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.CommentImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: thin solid grey;
+    margin-right: 0.5rem;
+}
+.CommentTime {
+    color: grey;
+    margin-left: 1rem;
+}
+.CommentHeader {
+    display: flex;
+}
+.CommentMessage {
+    margin-left: 3.7rem;
+}
+.CommentedBy {
+    color: grey;
+}
+

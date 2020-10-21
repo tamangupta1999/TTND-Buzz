@@ -1,0 +1,61 @@
+.BuzzEditComponentHeader {
+    display: flex;
+    padding: 0.8rem 0.8rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white ;
+    background-color: firebrick;
+}
+.BuzzBodyWrapper {
+    overflow-y: scroll;
+    height: 70vh;
+}
+.EditHeading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+.CloseArrow {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+    cursor: pointer;
+}
+.BuzzBody {
+    padding: 0.5rem;
+}
+.ElementWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.TextArea {
+    width: auto;
+    margin: 0.8rem 0;
+    height: 4rem;
+}
+.Label {
+    font-weight: 700;
+}
+.Select {
+    width: 50%;
+    margin: 0.8rem 0;
+}
+.Input {
+    margin-top: 0.5rem ;
+}
+.UpdateBtn {
+    margin-top: 1rem;
+    background: #0067cd;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+}
+.BuzzImage {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+}

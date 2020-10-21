@@ -1,0 +1,76 @@
+.DashboardHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo_Image {
+    margin-left: 30px;
+    z-index: 200;
+    height: 90px;
+    box-shadow: 2px 3px 4px #ccc;
+    outline: none;
+}
+.UserContent {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.ProfileImage {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.UserName {
+    margin-right: 5px;
+    color: green;
+}
+.LogoutBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: tomato;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding-left: 0.5rem;
+}
+.ProfileBtn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: tomato;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.ProfileViewer {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #ccc;
+    min-width: 160px;
+    padding: 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    right: 1%;
+    transition: .4s;
+}
+.ProfileView {
+    border: none;
+    background: none;
+}
+
+.UserContent:hover .ProfileViewer{
+    display: block;
+}
+.LogoutBtn:hover{
+    text-decoration: underline;
+}
+.UserType {
+    font-size: 0.7rem;
+}

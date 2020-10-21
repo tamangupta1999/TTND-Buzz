@@ -1,0 +1,32 @@
+.MyBuzzComponent {
+    margin: 0rem 3rem;
+    margin-top: 1rem;
+    width: 90%;
+    border: 1px solid #ccc;
+    height: 100vh;
+    overflow-x: scroll;
+    background: #fff;
+}
+.BuzzHeader {
+    margin: 0rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.BuzzHeader i {
+    color: grey;
+}
+.NoBuzz {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+@media(max-width:768px){
+    .MyBuzzComponent{
+        width: 100%;
+        margin: 0rem;
+        margin-top: 1rem;
+    }
+}

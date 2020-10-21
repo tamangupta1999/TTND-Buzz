@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BuzzViewComponent /> testing a <BuzzView /> Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="BuzzViewComponent"
+  >
+    <p
+      class="ShowDate"
+    >
+      24
+      <br />
+      06
+    </p>
+    <div
+      class="BuzzContentCard"
+    >
+      <div
+        class="BuzzContentHeader"
+      >
+        <div
+          class="BuzzContentHeader"
+        >
+          <p
+            class="BuzzCreatedBy"
+            data-testid="createdBy"
+          >
+            dummy@email.com
+          </p>
+          <p
+            class="BuzzCreatedOn"
+          >
+            ~21 days ago
+          </p>
+        </div>
+      </div>
+      <div
+        class="BuzzCard"
+      >
+        <p
+          class="BuzzMessage"
+          data-testid="buzzMessage"
+        >
+          <span
+            style="color: grey; display: inline-block; text-decoration-line: underline; margin-bottom: 10px;"
+          >
+            @taman.gupta
+          </span>
+          <br />
+          Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. He he in forfeited furniture sweetness he arranging. Me tedious so to behaved written account ferrars moments. Too objection for elsewhere her preferred allowance her. Marianne shutters mr steepest to me.
+    Bringing unlocked me an striking ye perceive. Mr by wound hours oh happy. Me in resolution pianoforte continuing we. Most my no spot felt by no. H...
+        </p>
+      </div>
+      <div
+        class="StatusCard"
+      >
+        <p
+          class="Like AfterLike"
+          data-testid="like"
+        >
+          <i
+            class="fas fa-thumbs-up"
+          />
+          1
+        </p>
+        <p
+          class="Dislike"
+        >
+          <i
+            class="fas fa-thumbs-down"
+          />
+          0
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,32 @@
+.SharedComponent {
+    margin: 0rem 3rem;
+    margin-top: 0.9rem;
+    width: 90%;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.SharedComponentHeader {
+    margin: 0rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f4f4;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.Heading {
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: darkslategray;
+}
+.Para {
+    margin-left: 1rem;
+}
+.Contact {
+    margin-left: 1rem;
+    text-align: center;
+}
+.ContactHeading {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
